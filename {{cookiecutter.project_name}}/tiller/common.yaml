@@ -1,0 +1,7 @@
+exec: [ "sh", "/tmp/entrypoint.sh"]
+data_sources: [ "defaults" , "file" , "environment" ]
+template_sources: [ 'file' ]
+environments:
+  development:
+    apps.erb:
+      target: /usr/local/{{ cookiecutter.project_name }}/settings/apps.conf

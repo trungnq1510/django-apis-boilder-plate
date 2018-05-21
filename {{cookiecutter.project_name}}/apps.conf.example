@@ -1,0 +1,5 @@
+[apps]
+secret_key = abcedasfada
+logfile_root = /var/log/{{ cookiecutter.project_name }}/
+environment = dev
+

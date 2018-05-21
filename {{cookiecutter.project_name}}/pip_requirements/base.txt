@@ -1,0 +1,9 @@
+django==1.11.3
+django-extensions==1.7.4
+djangorestframework==3.3.3
+drf-extensions==0.3.1
+djangorestframework-jwt==1.9.0
+django-filter==0.15.3
+python-json-logger==0.1.8
+git+https://github.com/mobile-health/drf-json-logging.git#egg=drf-json-logging
+git+https://github.com/mobile-health/drf-custom-json-api.git#egg=drf-custom-json-api
