@@ -1,5 +1,5 @@
 """
-Django settings for {{ project_name }} project.
+Django settings for {{cookiecutter.project_name}} project.
 For more information on this file, see
 https://docs.djangoproject.com/en/dev/topics/settings/
 For the full list of settings and their values, see
